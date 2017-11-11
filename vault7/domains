@@ -1,0 +1,7 @@
+domain edb.devlan.net
+search edb.devlan.net devlan.net
+nameserver 10.6.5.51
+nameserver 10.6.5.50
+nameserver 10.3.1.10
+
+add these domain to resolve.conf to use them
