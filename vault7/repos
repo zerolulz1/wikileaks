@@ -1,0 +1,30 @@
+
+http://repo.devlan.net/ubuntu oneiric main multiverse restricted universe
+http://repo.devlan.net/ubuntu oneiric-security main multiverse restricted universe
+http://repo.devlan.net/ubuntu oneiric-backports main multiverse restricted universe
+http://repo.devlan.net/ubuntu oneiric-updates main multiverse restricted universe
+http://repo.devlan.net/ubuntu oneiric-proposed main multiverse restricted universe
+http://repo.devlan.net/ubuntu/ trusty main restricted 
+deb-src http://repo.devlan.net/ubuntu/ trusty main restricted
+http://repo.devlan.net/ubuntu/ trusty-updates main restricted
+deb-src http://repo.devlan.net/ubuntu/ trusty-updates main restricted
+http://repo.devlan.net/ubuntu/ trusty universe
+deb-src http://repo.devlan.net/ubuntu/ trusty universe
+http://repo.devlan.net/ubuntu/ trusty-updates universe
+deb-src http://repo.devlan.net/ubuntu/ trusty-updates universe
+ttp://repo.devlan.net/ubuntu/ trusty multiverse
+deb-src http://repo.devlan.net/ubuntu/ trusty multiverse
+http://repo.devlan.net/ubuntu/ trusty-updates multiverse
+deb-src http://repo.devlan.net/ubuntu/ trusty-updates multiverse
+http://repo.devlan.net/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://repo.devlan.net/ubuntu/ trusty-backports main restricted universe multiverse
+
+ios link: http://repo.devlan.net/ubuntu-releases/14.04/ubuntu-14.04.1-desktop-amd64.iso
+
+debian
+
+deb http://repo.devlan.net/debian/ wheezy main
+deb-src http://repo.devlan.net/debian/ wheezy main
+
+one lining all the things
+:%s:\(.*extras\):#\1:g | %s:/.*ubuntu.com://repo.devlan.net:g
